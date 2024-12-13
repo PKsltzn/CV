@@ -1,0 +1,84 @@
+body{
+    color: black;
+    background-color: #F5F5DC;
+}
+.q{
+    display: flex;
+    flex-wrap: wrap;
+    background-color:#DAA520;
+    height: 300px;
+}
+.zdj{
+    height: 300px;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    padding-top:3%;
+}
+.zdj img{
+    height: 200px;
+    border-radius: 15%;
+}
+.nagl{
+    width: 60%;
+    text-align: left;
+    padding-top: 5%;
+}
+.cont{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 2%;
+}
+.dane{
+    width: 45%;
+    padding-top: 5%;
+}
+.dane img{
+    width: 20px;
+}
+.note{
+    width: 100%;
+    padding: 5%;
+    font-size: large;
+    background-color: #F0E68C;
+    text-align: justify;
+}
+.note h3{
+    color:black;
+}
+h3{
+    font-weight: bold;
+}
+.filmy{
+    width: 45%;
+    padding-top: 2%;
+}
+.role{
+    width: 45%;
+    padding-top: 2%;
+}
+.dub{
+    width: 45%;
+    padding-top: 5%;
+    
+}
+.st{
+    position:sticky;
+    bottom: 0;
+    background-color: #DAA520;
+    height: 35px;
+    padding-top: 10px;
+}
+a{
+    text-decoration: none;
+    color: #B8860B;
+}
+a:hover{
+    font-weight: bold;
+}
+hr{
+    border:1px solid black;
+}
